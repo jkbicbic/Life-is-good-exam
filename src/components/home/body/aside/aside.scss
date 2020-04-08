@@ -1,0 +1,54 @@
+/* aside */
+.aside{
+  width: 340px;
+  height: 1018px;
+  margin-top: 43px;
+  float: right;
+  background-color: #efefef;
+  padding: 20px;
+
+  .aside__banner-top{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin-bottom: 41px;
+    text-align: center;
+    padding-top: 142px;
+
+    &:hover{
+      cursor: pointer;
+      background-color: #bdbdbd;
+    }
+
+    &:active{
+      background-color: #616161;
+    }
+  }
+
+  .aside__recommended{
+    margin-bottom: 20px;
+  }
+
+  .aside__banner-small{
+    width: 300px;
+    height: 93px;
+    background-color: #666666;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 39px;
+
+    &:hover{
+      cursor: pointer;
+      background-color: #5f5e5e;
+    }
+
+    &:active{
+      background-color: #181818;
+    }
+
+    &.banner--first{
+      margin-top: 25px;
+    }
+  }
+}

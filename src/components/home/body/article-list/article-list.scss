@@ -1,0 +1,38 @@
+/* article */
+.article-list{
+  width: 720px;
+  margin-top: 43px;
+  float: left;
+
+  .article-list__button-more{
+    width: 404px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    background-color: #333333;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 4px;
+    position: relative;
+
+    &:hover{
+      background-color: #404040;
+    }
+
+    &:active{
+      background-color: #000;
+    }
+
+    .article-list__button-icon{
+      display: block;
+      width: 10px;
+      height: 16px;
+      background: url(./img/button-more-arrow.png);
+      position: absolute;
+      top: 12px;
+      right: 18px;
+    }
+  }
+}

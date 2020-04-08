@@ -1,0 +1,16 @@
+/* content */
+.body{
+  width: 1400px;
+  height: 1751px;
+
+  .body__content{
+    width: 1080px;
+    margin: 0 auto;
+
+    &::after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+}
