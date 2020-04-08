@@ -13,7 +13,7 @@ $ git clone git@github.com:jkbicbic/Life-is-good-exam.git
 via HTTPS
 
 ```
-https://github.com/jkbicbic/Life-is-good-exam.git
+$ git clone https://github.com/jkbicbic/Life-is-good-exam.git
 ```
 
 Install dependencies
