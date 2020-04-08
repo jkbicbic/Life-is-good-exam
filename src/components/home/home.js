@@ -5,8 +5,8 @@ import Body from './body/body';
 const Home = () => {
   return(
     <div>
-      <Carousel />
-      <Body />
+      <Carousel/>
+      <Body/>
     </div>
   )
 }
