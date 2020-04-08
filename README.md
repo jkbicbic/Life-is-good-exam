@@ -6,25 +6,25 @@ Clone this project
 
 via SSH
 
-```Bash
+```Console
 $ git clone git@github.com:jkbicbic/Life-is-good-exam.git
 ```
 
 via HTTPS
 
-```Bash
+```Console
 $ git clone https://github.com/jkbicbic/Life-is-good-exam.git
 ```
 
 Install dependencies
 
-```Bash
+```Console
 $ npm install
 ```
 
 Starting local server
 
-```Bash
+```Console
 $ npm start or yarn start
 ```
 
