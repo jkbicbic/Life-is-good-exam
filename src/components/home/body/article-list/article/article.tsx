@@ -3,11 +3,19 @@ import './article.scss';
 import { Link } from 'react-router-dom'
 import thumb from './img/thumb.png';
 import thumbClicked from './img/thumb-clicked.png';
+type Props = {
+  defaultValue: string;
+}
 
-class Article extends React.Component{
-  constructor(props){
+type States = {
+  image: string;
+}
+
+class Article extends React.Component<Props, States>{
+
+  constructor(props: Props){
     super(props);
-    this.state = {image: thumb};
+    this.state = {image: thumb}
   }
 
   onHover = () => {
@@ -21,8 +29,12 @@ class Article extends React.Component{
   render(){
     return(
       <Link to={'/other'}>
-        <article className="article-list__article" onMouseOver={this.onHover} onMouseOut={this.onOut}>
-          <img className="article-list__article-image" src={this.state.image} alt="article"/>
+        <article className="article-list__article"
+                 onMouseOver={this.onHover}
+                 onMouseOut={this.onOut}>
+          <img className="article-list__article-image"
+               src={this.state.image}
+               alt="article"/>
           <div className="article-list__article-preview">
             <p className="article-list__article-date">2016.01.01</p>
             <header className="article-list__article-header">
